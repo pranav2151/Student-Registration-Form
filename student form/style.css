@@ -1,0 +1,40 @@
+body{
+    width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+background-image: url(book1.png);
+
+}
+#title{
+    font-size: xxx-large;
+    text-align: center;
+    color: rgb(252, 248, 248);
+}
+table {
+    width: 500px;
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    background: rgb(247, 176, 23);
+    color: rgb(1, 1, 7);
+}
+
+#show th,
+#show td {
+    padding: 40px;
+    color: rgb(0, 0, 0);
+}
+#name,#mobile_no,#email,#age,#gender{
+    width: 390px;
+}
+
+#address{
+    height: 50px;
+    width: 390px;
+}
+#btna td input {
+    width: 50%;
+}
